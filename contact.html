@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FontAwesome 6.2.0 CSS -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" /> -->
+
+    <title>Multi Website</title>
+</head>
+
+<body>
+    <nav class="top-nav section-p">
+        <div class="left">
+            <a href="">About</a>
+            <a href="">Contact</a>
+            <a href="">Help</a>
+            <a href="">FAQs</a>
+        </div>
+        <div class="right">
+            <div class="dropdown">
+                <button id="my-account" class="normal">My Account <i class="fa-solid fa-caret-down"></i></button>
+
+                <ul id="my-acc-menu" class="dropdown-menu" style="display: none;">
+                    <li>Sign in</li>
+                    <li>Sign up</li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button id="currency" class="normal">USD <i class="fa-solid fa-caret-down"></i></button>
+                <ul id="currency-menu" class="dropdown-menu" style="display: none;">
+                    <li>EUR</li>
+                    <li>GBP</li>
+                    <li>CAD</li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button id="lang" class="normal">EN <i class="fa-solid fa-caret-down"></i></button>
+                <ul id="lang-menu" class="dropdown-menu" style="display: none;">
+                    <li>FN</li>
+                    <li>AR</li>
+                    <li>RU</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="section-p">
+        <div class="brand">
+            <span>Multi</span>
+            <span>Shop</span>
+        </div>
+        <div class="search-box d-none-md">
+            <input type="text" class="normal" placeholder="Search for products">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="service">
+            <p>Customer Service</p>
+            <p>+55 66565 4654</p>
+        </div>
+    </header>
+
+    <nav class="nav section-p">
+        <div class="categories d-none-sm">
+            <button id="cat-btn" class="normal">
+                <i class="fa-solid fa-bars"></i>
+                <span>Categories</span>
+                <i class="fa-solid fa-angle-down"></i>
+            </button>
+            <ul class="cat-list d-none z1">
+                <li class="sub-item">
+                    <span>Shirts</span>
+                    <i class="fa-solid fa-angle-right"></i>
+                    <ul class="sub-cat d-none">
+                        <li><a href="">Men's Dresses</a></li>
+                        <li><a href="">Women's Dresses</a></li>
+                        <li><a href="">Baby's Dresses</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="" class="">Jeans</a></li>
+                <li><a href="" class="">Swimwear</a></li>
+                <li><a href="" class="">Sleepwear</a></li>
+                <li><a href="" class="">Sportswear</a></li>
+                <li><a href="" class="">Jumpsuits</a></li>
+                <li><a href="" class="">Blazers</a></li>
+                <li><a href="" class="">Jackets</a></li>
+                <li><a href="" class="">Shoes</a></li>
+            </ul>
+        </div>
+        <div class="menu menu-close">
+            <div class="search-box d-none-lg d-none-xl">
+                <input type="text" class="normal" placeholder="Search for products">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="product-details.html">Shop Details</a>
+            <a href="">Pages <i class="fa-solid fa-caret-down"></i></a>
+            <a href="contact.html">Contact</a>
+
+        </div>
+        <div class="nav-right">
+            <div class="fav">
+                <i class="fa-solid fa-heart"></i>
+                <span>0</span>
+            </div>
+            <div class="cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>0</span>
+            </div>
+            <div class="menu-btn">
+                <button id="menu-btn">=</button>
+            </div>
+        </div>
+    </nav>
+    <section class="breadcrumb section-m p1 mb-2">
+        <a class="c-black" href="">Home</a>
+        <span>Contact</span>
+    </section>
+
+    <main id="contact-us">
+        <div class="container section-p mb-2">
+            <div class="section-title">
+                <span>CONTACT US </span>
+                <div class="hr"></div>
+            </div>
+            <div class="contact-form bg-white p2">
+                <input type="text" placeholder="Your Name">
+                <input type="text" placeholder="Your Email">
+                <input type="text" placeholder="Subject">
+                <textarea name="" rows="10" id="" placeholder="Message"></textarea>
+            </div>
+            <div class="right">
+                <div class="map p2 bg-white mb-2">
+                    <iframe style="width: 100%; height: 250px;"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
+                        frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="info p1 bg-white">
+                    <p>
+                        123 Street, New York, USA
+                    </p>
+                    <p>
+                        info@example.com
+                    </p>
+                    <p>
+                        +012 345 67890
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <div class="go-up">^</div>
+
+    <footer class="section-p">
+        <div class="col">
+            <h2>Get in touch</h2>
+            <p>No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed dolor. Rebum tempor no
+                vero est magna amet no</p>
+            <span>54 Dinbaea, New York, USA</span>
+            <span>info@example.com</span>
+            <span>+054 69855685</span>
+        </div>
+        <div class="col">
+            <h2>Quick Shop</h2>
+            <a href="">Home</a>
+            <a href="">Our Shop</a>
+            <a href="">Shop Details</a>
+            <a href="">Shopping Cart</a>
+            <a href="">Checkout</a>
+            <a href="">Contact Us</a>
+        </div>
+        <div class="col">
+            <h2>My Account</h2>
+            <a href="">Home</a>
+            <a href="">Our Shop</a>
+            <a href="">Shop Details</a>
+            <a href="">Shopping Cart</a>
+            <a href="">Checkout</a>
+            <a href="">Contact Us</a>
+        </div>
+        <div class="col col4">
+            <h2>Newsletter</h2>
+            <p>Duo stet tempor ipsum sit amet magna ipsum tempor est</p>
+            <div class="email-box">
+                <input type="text" placeholder="Your Email">
+                <button>Sign Up</button>
+            </div>
+            <h2>Follow Us</h2>
+            <div class="icons">
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+            </div>
+        </div>
+    </footer>
+    <bottom class="section-p">
+        <div>
+            © <span>Domain.</span> All Rights Reserved. Designed by <span>HTML Codex</span>
+        </div>
+        <img src="img/payments.png" alt="">
+    </bottom>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+#contact-us .container {
+    flex-wrap: wrap;
+}
+
+
+#contact-us .section-title {
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.contact-form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid #ced4da
+}
+
+.right {
+    width: 35%;
+}

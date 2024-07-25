@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FontAwesome 6.2.0 CSS -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" /> -->
+
+    <title>Multi Website</title>
+</head>
+
+<body>
+    <nav class="top-nav section-p">
+        <div class="left">
+            <a href="">About</a>
+            <a href="">Contact</a>
+            <a href="">Help</a>
+            <a href="">FAQs</a>
+        </div>
+        <div class="right">
+            <div class="dropdown">
+                <button id="my-account" class="normal">My Account <i class="fa-solid fa-caret-down"></i></button>
+
+                <ul id="my-acc-menu" class="dropdown-menu" style="display: none;">
+                    <li>Sign in</li>
+                    <li>Sign up</li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button id="currency" class="normal">USD <i class="fa-solid fa-caret-down"></i></button>
+                <ul id="currency-menu" class="dropdown-menu" style="display: none;">
+                    <li>EUR</li>
+                    <li>GBP</li>
+                    <li>CAD</li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button id="lang" class="normal">EN <i class="fa-solid fa-caret-down"></i></button>
+                <ul id="lang-menu" class="dropdown-menu" style="display: none;">
+                    <li>FN</li>
+                    <li>AR</li>
+                    <li>RU</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="section-p">
+        <div class="brand">
+            <span>Multi</span>
+            <span>Shop</span>
+        </div>
+        <div class="search-box d-none-md">
+            <input type="text" class="normal" placeholder="Search for products">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="service">
+            <p>Customer Service</p>
+            <p>+55 66565 4654</p>
+        </div>
+    </header>
+
+    <nav class="nav section-p">
+        <div class="categories d-none-sm">
+            <button id="cat-btn" class="normal">
+                <i class="fa-solid fa-bars"></i>
+                <span>Categories</span>
+                <i class="fa-solid fa-angle-down"></i>
+            </button>
+            <ul class="cat-list d-none z1">
+                <li class="sub-item">
+                    <span>Shirts</span>
+                    <i class="fa-solid fa-angle-right"></i>
+                    <ul class="sub-cat d-none">
+                        <li><a href="">Men's Dresses</a></li>
+                        <li><a href="">Women's Dresses</a></li>
+                        <li><a href="">Baby's Dresses</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="" class="">Jeans</a></li>
+                <li><a href="" class="">Swimwear</a></li>
+                <li><a href="" class="">Sleepwear</a></li>
+                <li><a href="" class="">Sportswear</a></li>
+                <li><a href="" class="">Jumpsuits</a></li>
+                <li><a href="" class="">Blazers</a></li>
+                <li><a href="" class="">Jackets</a></li>
+                <li><a href="" class="">Shoes</a></li>
+            </ul>
+        </div>
+        <div class="menu menu-close">
+            <div class="search-box d-none-lg d-none-xl">
+                <input type="text" class="normal" placeholder="Search for products">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="product-details.html">Shop Details</a>
+            <a href="">Pages <i class="fa-solid fa-caret-down"></i></a>
+            <a href="contact.html">Contact</a>
+
+        </div>
+        <div class="nav-right">
+            <div class="fav">
+                <i class="fa-solid fa-heart"></i>
+                <span>0</span>
+            </div>
+            <div class="cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>0</span>
+            </div>
+            <div class="menu-btn">
+                <button id="menu-btn">=</button>
+            </div>
+        </div>
+    </nav>
+    <section class="breadcrumb section-m p1 mb-2">
+        <a class="c-black" href="">Home</a>
+        <a class="c-black" href="">Shop</a>
+        <span>Product Detail</span>
+    </section>
+
+    <main id="product-details">
+        <div class="container section-p mb-2">
+            <div class="product-image">
+                <img src="img/product-1.jpg" alt="">
+            </div>
+            <div class="details p2">
+                <h1>Product Name Goes Here</h1>
+                <span>(99 Reviews)</span>
+                <h1>$3234</h1>
+                <p>Volup erat ipsum diam elitr rebum et dolor. Est nonumy elitr erat diam stet sit clita ea. Sanc ipsum
+                    et, labore clita lorem magna duo dolor no sea Nonumy</p>
+                <div class="size">
+                    <h1>Size: </h1>
+                    <input type="checkbox">
+                    <span>XS</span>
+                    <input type="checkbox">
+                    <span>S</span>
+                    <input type="checkbox">
+                    <span>M</span>
+                    <input type="checkbox">
+                    <span>L</span>
+                </div>
+                <div class="colors">
+                    <h1>Colors: </h1>
+                    <input type="checkbox">
+                    <span>Red</span>
+                    <input type="checkbox">
+                    <span>Blue</span>
+                    <input type="checkbox">
+                    <span>Yellow</span>
+                    <input type="checkbox">
+                    <span>Black</span>
+                </div>
+                <div class="qty">
+                    <span>-</span>
+                    <input type="number" value="1">
+                    <span>+</span>
+
+                    <button>Add To Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="description section-p mb-5">
+            <div class="information bg-white p2">
+                <div class="tabs mb-2">
+                    <button class="bg-gray active">Description</button>
+                    <button>Information</button>
+                    <button>Review (0)</button>
+                </div>
+                <div class="body">
+                    <h1 class="mb-1">Product Description</h1>
+                    <p class="mb-1">Eos no lorem eirmod diam diam, eos elitr et gubergren diam sea. Consetetur vero
+                        aliquyam invidunt
+                        duo
+                        dolores et duo sit. Vero diam ea vero et dolore rebum, dolor rebum eirmod consetetur invidunt
+                        sed
+                        sed et, lorem duo et eos elitr, sadipscing kasd ipsum rebum diam. Dolore diam stet rebum sed
+                        tempor
+                        kasd eirmod. Takimata kasd ipsum accusam sadipscing, eos dolores sit no ut diam consetetur duo
+                        justo
+                        est, sit sanctus diam tempor aliquyam eirmod nonumy rebum dolor accusam, ipsum kasd eos
+                        consetetur
+                        at sit rebum, diam kasd invidunt tempor lorem, ipsum lorem elitr sanctus eirmod takimata dolor
+                        ea
+                        invidunt.</p>
+
+                    <p class="mb-1">Dolore magna est eirmod sanctus dolor, amet diam et eirmod et ipsum. Amet dolore
+                        tempor
+                        consetetur
+                        sed lorem dolor sit lorem tempor. Gubergren amet amet labore sadipscing clita clita diam clita.
+                        Sea
+                        amet et sed ipsum lorem elitr et, amet et labore voluptua sit rebum. Ea erat sed et diam
+                        takimata
+                        sed justo. Magna takimata justo et amet magna et.</p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="section-p">
+        <div class="col">
+            <h2>Get in touch</h2>
+            <p>No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed dolor. Rebum tempor no
+                vero est magna amet no</p>
+            <span>54 Dinbaea, New York, USA</span>
+            <span>info@example.com</span>
+            <span>+054 69855685</span>
+        </div>
+        <div class="col">
+            <h2>Quick Shop</h2>
+            <a href="">Home</a>
+            <a href="">Our Shop</a>
+            <a href="">Shop Details</a>
+            <a href="">Shopping Cart</a>
+            <a href="">Checkout</a>
+            <a href="">Contact Us</a>
+        </div>
+        <div class="col">
+            <h2>My Account</h2>
+            <a href="">Home</a>
+            <a href="">Our Shop</a>
+            <a href="">Shop Details</a>
+            <a href="">Shopping Cart</a>
+            <a href="">Checkout</a>
+            <a href="">Contact Us</a>
+        </div>
+        <div class="col col4">
+            <h2>Newsletter</h2>
+            <p>Duo stet tempor ipsum sit amet magna ipsum tempor est</p>
+            <div class="email-box">
+                <input type="text" placeholder="Your Email">
+                <button>Sign Up</button>
+            </div>
+            <h2>Follow Us</h2>
+            <div class="icons">
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+            </div>
+        </div>
+    </footer>
+    <bottom class="section-p">
+        <div>
+            © <span>Domain.</span> All Rights Reserved. Designed by <span>HTML Codex</span>
+        </div>
+        <img src="img/payments.png" alt="">
+    </bottom>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
